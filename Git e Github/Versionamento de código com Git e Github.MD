@@ -49,10 +49,12 @@ Existem duas formas de obter um repositório Git na sua máquina:
 repositório Git;
 
 ## Clonando um repositório Git existente.
-- git init
-- git remote add origin "repositório remoto"
-- git clone "url do repositório"
-- git clone "url do repositório" --branch feature-1 --single-branch para escolher de qual branch quer baixar
+| Comando | Descrição |
+|----------|----------|
+| git init | Inicia um novo arquivo git no repositório local |
+| git remote add origin "repositório remoto" | Cria uma conexão com o repositório remoto |
+| git clone "url do repositório" | Comando para clonar um repositório remoto |
+| git clone "url do repositório" --branch feature-1 --single-branch | para escolher de qual branch quer baixar |
 
 ## SALVANDO ALTERAÇÕES NO REPOSITÓRIO LOCAL
 - git status - para verificar qual o status da nossa arvore de commits
