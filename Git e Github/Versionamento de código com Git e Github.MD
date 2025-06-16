@@ -28,15 +28,15 @@ Sistema de controle de versão distribuído.
 
 ## CONFIGURANDO O GIT
 Configurando o git para usar o mesmo e-mail para todos os repositórios utilizando o --global
-´´´
+```
 - git config --global user.name "Nome do Github"
 - git config --global user.email "email do github"
-´´´
+```
 
 caso tenha dúvidas do nome e e-mail que está configurado no git basta usar o comando:
-´´´
+```
 - git config user.name ou user.email
-´´´
+```
 
 git config init.defaulBranch
 retorna o nome da branch que está configurada como padrão
