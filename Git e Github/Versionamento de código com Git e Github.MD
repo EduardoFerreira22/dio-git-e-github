@@ -28,8 +28,8 @@ Leve e rápido.
 
 > ## CONFIGURANDO O GIT
 Configurando o git para usar o mesmo e-mail para todos os repositórios utilizando o --global
-- git config --global user.name "Nome do Github"
-- git config --global user.email "email do github"
+- [git config --global user.name "Nome do Github"](https://git-scm.com/docs/git-config)
+- [git config --global user.email "email do github"](https://git-scm.com/docs/git-config)
 
 
 ### caso tenha dúvidas do nome e e-mail que está configurado no git basta usar o comando:
