@@ -20,30 +20,30 @@ Cada clone é como um backup;
 Possibilita um fluxo de trabalho flexível;
 Possibilidade de trabalhar sem conexão à rede.
 
-> ## [Oque é Git?]
+> ## Oque é Git?
 Sistema de controle de versão distribuído.
-- Gratuito e Open Source (Código Aberto);
-- Ramicações (Branching) e fusões (merging) eficientes;
-- Leve e rápido.
+Gratuito e Open Source (Código Aberto);
+Ramicações (Branching) e fusões (merging) eficientes;
+Leve e rápido.
 
-> ## [CONFIGURANDO O GIT]
-Configurando o git para usar o mesmo e-mail para todos os repositórios utilizando o --global
+> ## CONFIGURANDO O GIT
 ```
+Configurando o git para usar o mesmo e-mail para todos os repositórios utilizando o --global
 - git config --global user.name "Nome do Github"
 - git config --global user.email "email do github"
 ```
 
-caso tenha dúvidas do nome e e-mail que está configurado no git basta usar o comando:
+### caso tenha dúvidas do nome e e-mail que está configurado no git basta usar o comando:
 ```
 - git config user.name ou user.email
+
+- git config init.defaulBranch
+retorna o nome da branch que está configurada como padrão
 ```
 
-git config init.defaulBranch
-retorna o nome da branch que está configurada como padrão
-
-para alterar a branch padrão basta usar o comando:
-git config --global init.defaultBranch main
-
+### para alterar a branch padrão basta usar o comando:
+- git config --global init.defaultBranch main
+```
 
 ## CRIANDO E CLONANDO REPOSITÓRIOS
 Existem duas formas de obter um repositório Git na sua máquina:
