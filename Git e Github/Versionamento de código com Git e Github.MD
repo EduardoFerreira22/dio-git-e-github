@@ -42,6 +42,7 @@ retorna o nome da branch que está configurada como padrão
 ```
 
 ### para alterar a branch padrão basta usar o comando:
+```
 - git config --global init.defaultBranch main
 ```
 
