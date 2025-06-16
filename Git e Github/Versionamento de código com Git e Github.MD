@@ -67,4 +67,9 @@ repositório Git;
 ### É sempre importante verificar em qual branch estamos e se realmente queremos apagar as ultimas alterações realizadas
 - git log - para verificar quais commits estão salvos
 
-- git status
+- git status - verifica o status da arvore de trabalho do git
+
+dá pra remover o arquivo .git - "não é recomendado pois irá remover tudo até as configuraçõe e credenciais".
+
+
+git restore
