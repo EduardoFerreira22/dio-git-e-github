@@ -88,4 +88,4 @@ git reset <nome do arquivo>: isso removerá um arquivo do fila
 git restore --staged <nome do arquivo>: esse comando fará a mesma coisa do comando a cima,
 porém é mais recomendado pelo proprio git
 
-
+git branch -M main: Esse comando renomeia a branch padrão master para a main
