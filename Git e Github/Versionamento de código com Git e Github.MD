@@ -72,4 +72,9 @@ repositório Git;
 dá pra remover o arquivo .git - "não é recomendado pois irá remover tudo até as configuraçõe e credenciais".
 
 
-git restore
+git restore - descarta todas as alterações realizadas localmente
+
+altera a mensagem de um commit: git commit --amend -m"Nova mensagem de commit"
+caso não passe no comando -m"mensagem de commit" será aberto um terminal para alterar manualmente
+
+git reset desfazer último commit 
