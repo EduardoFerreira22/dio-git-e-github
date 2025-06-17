@@ -83,3 +83,9 @@ git reflog: traz o historico de alterações no repositório local
 
 git reset --hard <hash do commit>: retorna para um determinado commit e suas alterações.
 
+git reset <nome do arquivo>: isso removerá um arquivo do fila
+
+git restore --staged <nome do arquivo>: esse comando fará a mesma coisa do comando a cima,
+porém é mais recomendado pelo proprio git
+
+
