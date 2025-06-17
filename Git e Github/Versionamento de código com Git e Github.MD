@@ -78,3 +78,8 @@ altera a mensagem de um commit: git commit --amend -m"Nova mensagem de commit"
 caso não passe no comando -m"mensagem de commit" será aberto um terminal para alterar manualmente
 
 git reset desfazer último commit 
+
+git reflog: traz o historico de alterações no repositório local
+
+git reset --hard <hash do commit>: retorna para um determinado commit e suas alterações.
+
