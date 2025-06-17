@@ -92,3 +92,4 @@ git branch -M main: Esse comando renomeia a branch padrão master para a main
 
 
 git push -u origin main : Envia as alterações locais para o Github
+
