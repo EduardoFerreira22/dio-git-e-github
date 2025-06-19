@@ -72,14 +72,14 @@ repositório Git;
 dá pra remover o arquivo .git - "não é recomendado pois irá remover tudo até as configuraçõe e credenciais".
 
 
-git restore - descarta todas as alterações realizadas localmente
+- git restore - descarta todas as alterações realizadas localmente
 
 altera a mensagem de um commit: git commit --amend -m"Nova mensagem de commit"
 caso não passe no comando -m"mensagem de commit" será aberto um terminal para alterar manualmente
 
-git reset desfazer último commit 
+- git reset desfazer último commit 
 
-git reflog: traz o historico de alterações no repositório local
+- git reflog: traz o historico de alterações no repositório local
 
 git reset --hard <hash do commit>: retorna para um determinado commit e suas alterações.
 
@@ -92,4 +92,19 @@ git branch -M main: Esse comando renomeia a branch padrão master para a main
 
 
 git push -u origin main : Envia as alterações locais para o Github
+
+
+## Como usar o editor remoto do Github no navegador?
+
+Dentro do diretório no Github clique em "."(ponto) que será aberto uma tela como se fosse o vc code onde podemos 
+fazer edções.
+
+## Trabalhando com Branches
+- git checkout -b <nome da branch>: comando para criar uma nova branch
+
+- git checkout <nome da branch>: muda para a branch informada
+
+- git branch -v: mostra os últimos commits das branchs listadas
+
+- git merge <nome da branch>: faz a fundição das alterações das duas branch's
 
