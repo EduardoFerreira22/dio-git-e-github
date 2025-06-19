@@ -94,7 +94,68 @@ git branch -M main: Esse comando renomeia a branch padrão master para a main
 git push -u origin main : Envia as alterações locais para o Github
 
 
-### Como usar o editor remoto do Github no navegador?
+## Como usar o editor remoto do Github no navegador?
 
 Dentro do diretório no Github clique em "."(ponto) que será aberto uma tela como se fosse o vc code onde podemos 
 fazer edções.
+
+## Trabalhando com Branches
+- git checkout -b <nome da branch>: comando para criar uma nova branch
+
+- git checkout <nome da branch>: muda para a branch informada
+
+- git branch -v: mostra os últimos commits das branchs listadas
+
+- git merge <nome da branch>: faz a fundição das alterações das duas branch's
+
+- git branch -D <nome da branch>: comando para excluir uma branch
+
+### Conflitos de Merge
+### git pull
+✅ O que faz:
+
+    É um atalho para git fetch + git merge (por padrão).
+
+    Busca as atualizações remotas e já tenta integrá-las ao seu branch atual.
+
+🛠️ Exemplo de uso:
+
+git pull origin main
+
+🔎 Resultado:
+
+    Atualiza o branch remoto e imediatamente mescla ao seu branch local.
+
+📌 Quando usar:
+
+    Quando você quer atualizar seu branch com as últimas alterações remotas de forma automática.
+
+### git fetch
+✅ O que faz:
+
+    Busca as atualizações do repositório remoto, mas não altera seu branch atual.
+
+    Traz apenas os dados (commits, branches remotos, tags...) para o repositório local.
+
+🛠️ Exemplo de uso:
+
+git fetch origin
+
+🔎 Resultado:
+
+    Atualiza os ponteiros de branches remotos, como origin/main, mas não incorpora essas mudanças no seu branch local (main ainda será o que era antes).
+
+📌 Quando usar:
+
+    Quando você quer inspecionar mudanças no remoto antes de integrá-las.
+
+    Útil para revisar o que mudou antes de decidir aplicar.
+
+
+### 🧑‍💻 Boas práticas
+
+    Use git fetch seguido de git log origin/main ou git diff origin/main para ver o que mudou antes de aplicar com git merge.
+
+    Evite git pull se estiver em meio a mudanças locais não finalizadas — pode causar conflitos ou confusão.
+
+    Sempre faça commit ou stash antes de um pull para evitar perda de progresso.
